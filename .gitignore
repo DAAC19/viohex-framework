@@ -1,0 +1,17 @@
+# Sección 11.2: nada de credenciales, datos personales ni evidencias sin anonimizar
+.env
+.env.*
+*.key
+*.pem
+secrets/
+**/evidencias/sin-anonimizar/
+**/evidencias/*.pcap
+**/evidencias/*.har
+# Informes originales y guías del docente (pueden contener datos de terceros)
+informes-originales/
+guias/
+# Archivos temporales
+~$*
+*.tmp
+.DS_Store
+Thumbs.db
