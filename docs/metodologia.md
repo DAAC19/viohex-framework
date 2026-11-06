@@ -72,7 +72,7 @@ Cada prueba tendrá identificador, objetivo, condiciones, entrada, resultado esp
 | P04 | Línea base del entorno (FC-LAB-001) | Puertos y servicios locales identificados | Entorno operativo; puertos abiertos de localhost listados con Nmap. | No aplica | Ejecutada |
 | P05 | Ingeniería social (FC-LAB-005) | Técnica clasificada y medidas propuestas | Phishing con suplantación clasificado; coincide con la matriz del autor del escenario. | No aplica | Ejecutada |
 | P06 | OSINT de infraestructura (FC-LAB-006) | Infraestructura pública mapeada | Grafos de cuatro dominios con MX, NS, SOA y SPF; sin nodos IP para santototunja.edu.co. | No aplica | Ejecutada |
-| P07 | Flujos de autenticación (FC-LAB-007) | Endpoint, método, formato y respuesta documentados | Cuatro flujos POST documentados; ninguno revela qué credencial falla; SAC codifica el cuerpo en Base64. | Baja | Ejecutada |
+| P07 | Flujos de autenticación (FC-LAB-007) | Endpoint, método, formato y respuesta documentados | Cuatro flujos POST documentados; ninguno revela qué credencial falla; el sistema B codifica el cuerpo en Base64. | Baja | Ejecutada |
 
 Las severidades se asignaron con la rúbrica del Anexo B. «Ejecutada» indica que el procedimiento se completó, no que exista o no una vulnerabilidad. Ninguna prueba ha pasado aún por la fase 06 Verificación tras una corrección.
 
