@@ -7,7 +7,9 @@ VioHex-framework/
  docs/{framework,arquitectura,metodologia,glosario}.md
  framework/{fases,protocolos,matrices}/
  laboratorios/{lab-01-shell,lab-02-dns,lab-03-httrack,lab-04-esteganografia,lab-05-ingenieria-social,lab-06-maltego,lab-07-burp,lab-08-prompt-injection,lab-09-dvwa-parte1,lab-10-dvwa-parte2,lab-11-owasp-zap}/
- scripts/ plantillas/ casos-estudio/ resultados/
+ scripts/ plantillas/
+
+Las carpetas casos-estudio/ (evaluaciones completas) y resultados/ (informes consolidados por versión) se crean cuando exista el primer caso o informe.
 
 Cada carpeta de laboratorio contiene README.md (ficha del laboratorio), procedimiento/ (guía del docente y pasos) y resultados/ (informe entregado y hallazgos); evidencias/ (capturas anonimizadas y hashes) y scripts/ se agregan solo cuando tienen archivos. Los laboratorios nuevos se agregan en el orden del catálogo como lab-12-<tema>, lab-13-<tema>, etc.
 

@@ -3,7 +3,7 @@
 | Paso | Acción | Comando o ejemplo |
 | --- | --- | --- |
 | 1 | Crear el repositorio | VioHex-framework en GitHub; git clone <url> |
-| 2 | Crear la estructura de carpetas de la sección 11 | docs/, framework/, laboratorios/, scripts/, plantillas/, casos-estudio/, resultados/ |
+| 2 | Crear la estructura de carpetas de la sección 11 | docs/, framework/, laboratorios/, scripts/, plantillas/ (casos-estudio/ y resultados/ cuando tengan contenido) |
 | 3 | Excluir lo que no debe publicarse (sección 11.2) | .gitignore con evidencias sin anonimizar, .env y credenciales |
 | 4 | Crear una rama de trabajo | git switch -c feature/lab-08 |
 | 5 | Registrar cambios | git add laboratorios/lab-08-<tema>; git commit -m "docs: agrega ficha FC-LAB-008" |

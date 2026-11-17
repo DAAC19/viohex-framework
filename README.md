@@ -48,8 +48,6 @@ framework/
 laboratorios/    Una carpeta por laboratorio: README (ficha), procedimiento (guía), resultados (informe)
                  y, cuando los hay, evidencias y scripts
 plantillas/      Ficha de laboratorio, caso de prueba y hallazgo
-casos-estudio/   Evaluaciones completas sobre escenarios autorizados
-resultados/      Informes consolidados y métricas por versión
 scripts/         Utilidades (hashes de evidencias)
 ```
 
