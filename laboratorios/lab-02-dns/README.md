@@ -15,4 +15,6 @@
 | Análisis defensivo | El dominio no tiene registro DS en la zona padre ni DNSKEY en la zona hija, por lo que su DNS no está protegido con DNSSEC. Como control, se recomienda habilitar DNSSEC para mitigar la suplantación de respuestas y el envenenamiento de caché. El DNS lo provee Linode y el correo, Google. |
 | Resultado | Perfil DNS del dominio y hallazgo: ausencia de DNSSEC. |
 
+Documentos: guía del docente: [guía](procedimiento/guia.pdf); informe entregado: [informe](resultados/informe.pdf).
+
 Autor de los laboratorios: Diego Alejandro Alberto Cáceres. Las fechas corresponden a la última versión de cada informe entregado. En estos laboratorios académicos el autor asumió todos los roles, incluido el de revisor, como admite la sección 3.

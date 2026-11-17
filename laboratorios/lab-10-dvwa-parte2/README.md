@@ -17,4 +17,6 @@
 | Análisis defensivo | Cinco hallazgos, tres críticos, uno alto y uno medio, en [resultados/hallazgos.md](resultados/hallazgos.md). La subida de archivos y la inclusión local se encadenan para lograr ejecución remota por dos caminos. La mitigación propuesta es defensa en profundidad según OWASP. |
 | Resultado | Matriz de hallazgos con severidad según la rúbrica del Anexo B y plan de mitigación. Pendiente para la fase 06: repetir las pruebas en el nivel Impossible y registrar si cada carga queda bloqueada. |
 
+Documentos: guía del docente: [guía](procedimiento/guia.pdf); informe entregado: [informe](resultados/informe.pdf).
+
 Autor del laboratorio: Diego Alejandro Alberto Cáceres. Corresponde al laboratorio 10 del curso. En este laboratorio académico el autor asumió todos los roles, incluido el de revisor, como admite la sección 3.

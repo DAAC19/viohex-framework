@@ -17,4 +17,6 @@
 | Análisis defensivo | Cinco hallazgos (uno alto y cuatro medios) en [resultados/hallazgos.md](resultados/hallazgos.md). Predominan debilidades de configuración y de componentes: política CSP ausente o permisiva, cabeceras de seguridad faltantes, CORS permisivo, gestión de sesión débil y bibliotecas JavaScript desactualizadas (una con CVE conocida). El escaneo activo no reveló vulnerabilidades explotables de inyección en los objetivos externos; sí confirmó la inyección SQL de DVWA ya documentada en el FC-LAB-009. |
 | Resultado | Reporte de ZAP con las alertas por sitio y matriz de hallazgos con severidad según la rúbrica del Anexo B. Resumen anonimizado del reporte en [resultados/reporte-zap-resumen.md](resultados/reporte-zap-resumen.md). Pendiente para la fase 06: aplicar los controles de hardening y repetir el escaneo para comprobar que las alertas desaparecen. |
 
+Documentos: guía del docente: [guía](procedimiento/guia.pdf); informe entregado: [informe](resultados/informe.pdf). En ambos se taparon el nombre, la URL y las capturas de la plataforma académica A.
+
 Autor del laboratorio: Diego Alejandro Alberto Cáceres. Corresponde al laboratorio 11 del curso. En este laboratorio académico el autor asumió todos los roles, incluido el de revisor, como admite la sección 3.

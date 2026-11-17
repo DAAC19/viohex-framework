@@ -15,6 +15,8 @@
 | Análisis defensivo | Las herramientas detectan los datos concatenados (strings, Binwalk), pero la esteganografía con Steghide no deja rastro visible sin la contraseña. Recomendaciones: inspeccionar los archivos que salen de la organización con varias técnicas, trabajar siempre sobre copias y registrar los hashes como parte de la cadena de custodia. |
 | Resultado | Los mensajes de las evidencias B y C se recuperaron y los hashes de las evidencias originales se mantuvieron íntegros. |
 
-Correspondencia de informes: parte 1 = "Laboratorio No 4"; parte 2 = "Laboratorio No 4 parte 2" (preparación de las imágenes) y "Laboratorio Esteganografía parte 2" (análisis forense); parte 3 = "Laboratorio Esteganografía parte 3"..
+Correspondencia de informes: parte 1 = "Laboratorio No 4"; parte 2 = "Laboratorio No 4 parte 2" (preparación de las imágenes) y "Laboratorio Esteganografía parte 2" (análisis forense); parte 3 = "Laboratorio Esteganografía parte 3".
+
+Documentos: guía del docente: [guía parte 1](procedimiento/guia-parte1.pdf), [guía parte 2](procedimiento/guia-parte2.pdf), [guía parte 3](procedimiento/guia-parte3.pdf); informe entregado: [informe parte 1](resultados/informe-parte1.pdf), [informe parte 2, análisis forense](resultados/informe-parte2-analisis.pdf), [informe parte 2, preparación de las imágenes](resultados/informe-parte2-preparacion.pdf), [informe parte 3](resultados/informe-parte3.pdf).
 
 Autor de los laboratorios: Diego Alejandro Alberto Cáceres. Las fechas corresponden a la última versión de cada informe entregado. En estos laboratorios académicos el autor asumió todos los roles, incluido el de revisor, como admite la sección 3.

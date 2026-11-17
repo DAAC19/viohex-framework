@@ -28,6 +28,12 @@ VioHex organiza una evaluación en seis fases: preparación, prevención, identi
 | [FC-LAB-005](laboratorios/lab-05-ingenieria-social/) | Ingeniería social | D05 |
 | [FC-LAB-006](laboratorios/lab-06-maltego/) | Maltego | D02 |
 | [FC-LAB-007](laboratorios/lab-07-burp/) | Burp Suite | D03/D04 |
+| [FC-LAB-008](laboratorios/lab-08-prompt-injection/) | Prompt injection en aplicaciones con LLM | D08 |
+| [FC-LAB-009](laboratorios/lab-09-dvwa-parte1/) | DVWA, parte 1: fuerza bruta, SQLi, inyección de comandos y XSS | D03/D04 |
+| [FC-LAB-010](laboratorios/lab-10-dvwa-parte2/) | DVWA, parte 2: CSRF, carga e inclusión de archivos, SQLi ciega | D03/D04 |
+| [FC-LAB-011](laboratorios/lab-11-owasp-zap/) | Análisis de aplicaciones web con OWASP ZAP | D03/D04 |
+
+Cada laboratorio incluye la guía del docente en `procedimiento/` y el informe entregado en `resultados/`.
 
 Los dominios están en [framework/matrices/dominios.md](framework/matrices/dominios.md).
 
@@ -39,7 +45,8 @@ framework/
   fases/         Una especificación por fase
   matrices/      Dominios, referentes, casos de prueba, hallazgos, evidencias y mitigación
   protocolos/    Gestión del repositorio y guía de GitHub
-laboratorios/    Una carpeta por laboratorio: README (ficha), procedimiento, evidencias, scripts, resultados
+laboratorios/    Una carpeta por laboratorio: README (ficha), procedimiento (guía), resultados (informe)
+                 y, cuando los hay, evidencias y scripts
 plantillas/      Ficha de laboratorio, caso de prueba y hallazgo
 casos-estudio/   Evaluaciones completas sobre escenarios autorizados
 resultados/      Informes consolidados y métricas por versión
@@ -48,8 +55,8 @@ scripts/         Utilidades (hashes de evidencias)
 
 ## Agregar un laboratorio
 
-1. Crear `laboratorios/lab-NN-<tema>/` con las subcarpetas `procedimiento`, `evidencias`, `scripts` y `resultados`.
-2. Copiar [plantillas/ficha-laboratorio.md](plantillas/ficha-laboratorio.md) como su `README.md`.
+1. Crear `laboratorios/lab-NN-<tema>/` con `scripts/nuevo-lab.ps1`, que copia [plantillas/ficha-laboratorio.md](plantillas/ficha-laboratorio.md) como su `README.md`.
+2. Agregar la guía en `procedimiento/` y el informe en `resultados/`; `evidencias/` y `scripts/` se crean solo si hay archivos.
 3. Registrar sus casos de prueba y hallazgos en `framework/matrices/`.
 4. Trabajar en una rama `feature/lab-NN` y abrir un Pull Request (ver [guía de GitHub](framework/protocolos/guia-github.md)).
 

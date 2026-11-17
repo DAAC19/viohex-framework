@@ -15,4 +15,6 @@
 | Análisis defensivo | No se encontraron claves, tokens ni cookies expuestos, pero sí nombres de variables de entorno, rutas y la estructura del sitio. Controles recomendados: no exponer variables de entorno ni endpoints en el frontend, evitar la autenticación del lado del cliente y limitar la tasa de peticiones. |
 | Resultado | Se reconstruyó todo el frontend (HTML, CSS, JS, imágenes). Hallazgo de severidad baja: nombres de variables de entorno visibles en el frontend (rúbrica del Anexo B). |
 
+Documentos: guía del docente: [guía](procedimiento/guia.pdf); informe entregado: [informe parte 1](resultados/informe-parte1.pdf), [informe parte 2](resultados/informe-parte2.pdf).
+
 Autor de los laboratorios: Diego Alejandro Alberto Cáceres. Las fechas corresponden a la última versión de cada informe entregado. En estos laboratorios académicos el autor asumió todos los roles, incluido el de revisor, como admite la sección 3.

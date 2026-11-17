@@ -17,4 +17,6 @@
 | Análisis defensivo | Cinco hallazgos, cuatro críticos y uno alto, en [resultados/hallazgos.md](resultados/hallazgos.md). Causas comunes: la entrada se concatena en consultas, comandos y HTML sin validar ni codificar, y la cookie de sesión no lleva `HttpOnly`. La mitigación propuesta es defensa en profundidad según OWASP. |
 | Resultado | Matriz de hallazgos con severidad según la rúbrica del Anexo B y plan de mitigación. Pendiente para la fase 06: repetir las pruebas en el nivel Impossible y registrar si cada carga queda bloqueada. |
 
+Documentos: guía del docente: [guía](procedimiento/guia.pdf); informe entregado: [informe](resultados/informe.pdf).
+
 Autor del laboratorio: Diego Alejandro Alberto Cáceres. Corresponde al laboratorio 9 del curso. En este laboratorio académico el autor asumió todos los roles, incluido el de revisor, como admite la sección 3.

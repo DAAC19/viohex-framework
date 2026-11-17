@@ -11,10 +11,8 @@ if (Test-Path $carpeta) { throw "Ya existe $carpeta" }
 $repetido = Get-ChildItem (Join-Path $raiz 'laboratorios') -Directory -Filter ("lab-{0:D2}-*" -f $Numero)
 if ($repetido) { throw "El número $Numero ya lo usa $($repetido.Name)" }
 
-foreach ($sub in 'procedimiento', 'evidencias', 'scripts', 'resultados') {
-    New-Item -ItemType Directory -Path (Join-Path $carpeta $sub) | Out-Null
-    New-Item -ItemType File -Path (Join-Path $carpeta "$sub/.gitkeep") | Out-Null
-}
+# Las subcarpetas (procedimiento, resultados, evidencias, scripts) se crean al agregarles archivos
+New-Item -ItemType Directory -Path $carpeta | Out-Null
 
 # La ficha parte de la plantilla, sin la línea de instrucciones y con el identificador ya puesto
 $ficha = Get-Content (Join-Path $raiz 'plantillas/ficha-laboratorio.md') -Encoding utf8 |
@@ -23,4 +21,4 @@ $ficha = Get-Content (Join-Path $raiz 'plantillas/ficha-laboratorio.md') -Encodi
     Set-Content (Join-Path $carpeta 'README.md') -Encoding utf8 -NoNewline
 
 Write-Output "Creado $id en $carpeta"
-Write-Output "Pendiente: completar la ficha, sumarlo al catálogo del README y a framework/matrices/."
+Write-Output "Pendiente: agregar la guía en procedimiento/ y el informe en resultados/, completar la ficha, sumarlo al catálogo del README y a framework/matrices/."

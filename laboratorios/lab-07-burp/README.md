@@ -15,4 +15,6 @@
 | Análisis defensivo | Las cuatro usan POST y no revelan si el error está en el usuario o en la contraseña. Juice Shop responde 401; la plataforma A lleva un contador de intentos fallidos y usa un token anti-bot de Cloudflare; el sistema B usa un código interno (-5) y codifica el cuerpo en Base64, lo cual es ofuscación y no cifrado; PortSwigger delega en Auth0 (OAuth/OIDC). Recomendaciones: usar siempre HTTPS, limitar los intentos, usar códigos de estado HTTP estándar y no depender de la codificación Base64 como protección. |
 | Resultado | Matriz comparativa de cuatro flujos de autenticación (JSON, x-www-form-urlencoded y JSON en Base64). |
 
+Documentos: guía del docente: [guía](procedimiento/guia.pdf); informe entregado: [informe](resultados/informe.pdf). En ambos se taparon los nombres, las URL y las capturas de la plataforma académica A y el sistema académico B.
+
 Autor de los laboratorios: Diego Alejandro Alberto Cáceres. Las fechas corresponden a la última versión de cada informe entregado. En estos laboratorios académicos el autor asumió todos los roles, incluido el de revisor, como admite la sección 3.

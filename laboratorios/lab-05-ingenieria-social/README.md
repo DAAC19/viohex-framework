@@ -15,4 +15,6 @@
 | Análisis defensivo | Indicadores: dominio o enlace desconocido y urgencia artificial. Medidas: verificar el remitente y la información por los canales oficiales, no abrir enlaces dudosos, reportar el correo, cambiar las credenciales y activar MFA. |
 | Resultado | Escenario de quishing documentado y análisis del phishing recibido coincidente con el del autor; la única diferencia está en el contexto, que el escenario no especifica. |
 
+Documentos: guía del docente: [guía](procedimiento/guia.pdf); informe entregado: [informe](resultados/informe.pdf).
+
 Autor de los laboratorios: Diego Alejandro Alberto Cáceres. Las fechas corresponden a la última versión de cada informe entregado. En estos laboratorios académicos el autor asumió todos los roles, incluido el de revisor, como admite la sección 3.

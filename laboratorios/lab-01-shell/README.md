@@ -15,4 +15,6 @@
 | Análisis defensivo | Conocer los puertos y servicios locales permite cerrar los que no se usan. El escaneo de localhost sirve como línea base de exposición del equipo de pruebas. |
 | Resultado | Entorno de trabajo operativo y documentado; línea base de red y puertos de la máquina virtual. |
 
+Documentos: guía del docente: [guía](procedimiento/guia.pdf); informe entregado: [informe](resultados/informe.pdf).
+
 Autor de los laboratorios: Diego Alejandro Alberto Cáceres. Las fechas corresponden a la última versión de cada informe entregado. En estos laboratorios académicos el autor asumió todos los roles, incluido el de revisor, como admite la sección 3.
