@@ -15,6 +15,6 @@
 | Análisis defensivo | Tesla delega el correo en Microsoft (mail.protection.outlook.com). En el portal de la universidad no se obtuvieron nodos de IP, por lo que no fue posible analizar el netblock. Instagram delega el SPF en dos dominios de Facebook y Microsoft, en cuatro dominios. El SPF reduce la suplantación del dominio; un DNS mal protegido expone a secuestro de registros y a denegación de servicio. |
 | Resultado | Perfiles de infraestructura de los cuatro dominios y relación de dependencias con terceros. |
 
-Documentos: guía del docente: [guía del cuestionario](procedimiento/guia-cuestionario.pdf); informe entregado: [informe de la aplicación](resultados/informe-aplicacion.pdf), [informe del cuestionario](resultados/informe-cuestionario.pdf). No se dispone de la guía de la parte de aplicación.
+Documentos: guía del docente: [guía de la aplicación](procedimiento/guia-aplicacion.pdf), [guía del cuestionario](procedimiento/guia-cuestionario.pdf); informe entregado: [informe de la aplicación](resultados/informe-aplicacion.pdf), [informe del cuestionario](resultados/informe-cuestionario.pdf).
 
 Autor de los laboratorios: Diego Alejandro Alberto Cáceres. Las fechas corresponden a la última versión de cada informe entregado. En estos laboratorios académicos el autor asumió todos los roles, incluido el de revisor, como admite la sección 3.

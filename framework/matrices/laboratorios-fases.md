@@ -9,5 +9,9 @@
 | FC-LAB-005 |  | X |  | X |  |  |
 | FC-LAB-006 |  |  | X |  |  |  |
 | FC-LAB-007 |  |  | X | X |  |  |
+| FC-LAB-008 | X | X |  |  | X |  |
+| FC-LAB-009 |  |  | X | X | X |  |
+| FC-LAB-010 |  |  | X | X | X |  |
+| FC-LAB-011 |  | X | X | X |  |  |
 
-Ningún laboratorio cubre todavía la fase 05 Mitigación, y la fase 06 Verificación solo se aplica a la comparación de hashes del FC-LAB-004. Los tratamientos propuestos para los hallazgos se recogen en el Anexo D.
+Las fases 05 Mitigación las cubren los FC-LAB-008, 009 y 010 con planes de tratamiento propuestos, y la fase 06 Verificación solo se aplica a la comparación de hashes del FC-LAB-004. Los tratamientos propuestos para los hallazgos se recogen en el Anexo D.

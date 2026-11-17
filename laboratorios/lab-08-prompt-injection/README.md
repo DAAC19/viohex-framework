@@ -17,6 +17,6 @@
 | Análisis defensivo | El prompt injection comparte la causa raíz de la inyección SQL y del XSS del FC-LAB-009: mezclar datos no confiables con instrucciones. Como el lenguaje natural no admite un equivalente a las consultas parametrizadas, la defensa es en profundidad: aislamiento de contexto, validación de entradas y salidas fuera del modelo, mínimo privilegio, aprobación humana y monitoreo. Detalle en [resultados/controles.md](resultados/controles.md). |
 | Resultado | Taxonomía de casos de prueba, plantilla de matriz de evaluación ([resultados/plantilla-matriz.csv](resultados/plantilla-matriz.csv)), métricas ISR y MR, y diez buenas prácticas. Pendiente para las fases 03 y 06: aplicar la matriz a un sistema con LLM autorizado. |
 
-Documentos: informe entregado: [informe](resultados/informe.pdf). No se dispone de la guía del docente.
+Documentos: guía del docente: [guía](procedimiento/guia.pdf); informe entregado: [informe](resultados/informe.pdf).
 
 Autor del laboratorio: Diego Alejandro Alberto Cáceres. Corresponde al laboratorio 8 del curso. En este laboratorio académico el autor asumió todos los roles, incluido el de revisor, como admite la sección 3.

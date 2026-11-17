@@ -9,12 +9,17 @@
 | E05 | P05 | Matrices de análisis del escenario propio y del recibido | Documento | Lab No5 Ciberseguridad |
 | E06 | P06 | Grafos de Maltego por dominio y cuestionario | Captura y documento | Laboratorio No 6 Ciberseguridad; Laboratorio Ciberseguridad No 6 - cuestionario |
 | E07 | P07 | Peticiones y respuestas capturadas en Burp Suite | Captura | Laboratorio Ciberseguridad No 7 |
+| E08 | P08 | Taxonomía, plantilla de matriz y script de métricas (sin capturas) | Documento y archivos | Repositorio: laboratorios/lab-08-prompt-injection |
+| E09 | P09 | 25 capturas de DVWA parte 1 (cookie tapada) y hashes.csv | Captura y archivos | Repositorio: laboratorios/lab-09-dvwa-parte1/evidencias |
+| E10 | P10 | 23 capturas de DVWA parte 2 (contraseña tapada) y hashes.csv | Captura y archivos | Repositorio: laboratorios/lab-10-dvwa-parte2/evidencias |
+| E11 | P11 | 13 capturas por objetivo (sin las del objetivo externo con host) y resumen anonimizado del reporte | Captura y documento | Repositorio: laboratorios/lab-11-owasp-zap |
 
 Hashes SHA-256 de los informes entregados en PDF, para su cadena de custodia:
 
 | Informe (PDF) | SHA-256 |
 | --- | --- |
 | Lab No5 Ciberseguridad.pdf | 6912E5B736C92B708296B2DFE0CB311C687F3A2E2A00D6B96F94916CD95E0DEE |
+| Laboratorio Ciberseguridad No 11.pdf | B3CCD48797FE65AB7AD42B8CDE85755F844B5FA7D44EE9D9BAB7C763F1BB56C0 |
 | Laboratorio Ciberseguridad No 6 - cuestionario.pdf | DCC82762E85D2CD9C7CADA187CCA20F00803B870E83BB689DC979C2728544784 |
 | Laboratorio Ciberseguridad No 7.pdf | F95B1F2A227A252C79D03E06FF112882DCE02073D69FFEF2054FFE44A2696187 |
 | Laboratorio Esteganografia parte 2.pdf | 1DCD2F22931090725BC050E3703E6CCA68486B193D4416986DCDF9EE96D7D30B |
@@ -27,4 +32,4 @@ Hashes SHA-256 de los informes entregados en PDF, para su cadena de custodia:
 | Laboratorio No 6 Ciberseguridad.pdf | 6DCB170B8B689237DA71A96F3915496AFBAFD9348C3A2C67909B2DD7FEBD6508 |
 | Laboratorio No1 Ciberseguridad.pdf | E95FDECF467347E10181972233ED52BDC987F65EFB9926F8D550C4FA1AC7A7FC |
 
-Las capturas anonimizadas de cada laboratorio se guardan en `laboratorios/<lab>/evidencias/`.
+Las capturas anonimizadas de cada laboratorio se guardan en `laboratorios/<lab>/evidencias/` y los informes entregados, en `laboratorios/<lab>/resultados/`.
